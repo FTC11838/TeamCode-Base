@@ -8,8 +8,6 @@ public class Robot {
     //Subsystems
     public static ExampleSubsystem exampleSubsystem;
 
-    //Hello World
-
     //Actuators and globals
     public Robot(HardwareMap ahwMap){
         exampleSubsystem = new ExampleSubsystem(ahwMap);
